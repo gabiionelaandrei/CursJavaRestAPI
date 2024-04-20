@@ -1,4 +1,3 @@
-
 package curs7;
 
 import java.util.Scanner;
