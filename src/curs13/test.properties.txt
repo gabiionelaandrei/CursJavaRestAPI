@@ -1,0 +1,5 @@
+#Mon Apr 22 20:37:11 EEST 2024
+hostname=sever.com
+port=1234
+url=example.com
+user=utilizator

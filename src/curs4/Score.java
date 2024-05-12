@@ -11,9 +11,9 @@ public class Score {
 		System.out.println("Please enter your score :");
 		score = scan.nextInt();
 
-		calificativ = (score >=90)?"Calificativul tau este FB":(score >=80 ?"Calificativul tau este B":"Calificativul tau este S");
-		System.out.println(calificativ);
+		 calificativ = (score>=90)?"FB":(score<90&&score>=80)?"B":"S";
 
+		String message = (calificativ == "FB" )? "Ai primit : FoarteBine" : (calificativ == "B") ?"Ai primit : Bine":"Ai primit : Suficient";
 }
 
 	}

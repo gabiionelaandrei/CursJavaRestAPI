@@ -15,11 +15,9 @@ public class BonusAngajat {
 		switch(an) {
 		case 1:
 			bonus =100;
-			System.out.println("Valoarea bonusului tau este de : " + bonus + " RON.");
 			break;
 		case 2:
 			bonus =200;
-			System.out.println("Valoarea bonusului tau este de : " + bonus + " RON.");
 			break;
 		case 3:
 

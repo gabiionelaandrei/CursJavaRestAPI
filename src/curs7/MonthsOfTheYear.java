@@ -17,7 +17,7 @@ public class MonthsOfTheYear  {
 		do {
 			readMonth();
 
-			if(nrLuna <= monnths.length) {
+			if(nrLuna < monnths.length && nrLuna > 0) {
 				System.out.println("Luna aleasa de tine este: " + monnths[nrLuna-1]);
 				break;
 	}	
